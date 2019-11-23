@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbecde5b-86ed-4678-a91b-fa6e454821da" name="Default Changelist" comment="" />
+    <list default="true" id="fbecde5b-86ed-4678-a91b-fa6e454821da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/terraform/modules/gce/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/modules/gce/main.tf" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/terraform/modules/gce/main.tf">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -74,6 +80,7 @@
         <option value="$PROJECT_DIR$/terraform/modules/gcs/main.tf" />
         <option value="$PROJECT_DIR$/cloudbuild.yaml" />
         <option value="$PROJECT_DIR$/terraform/modules/iam/main.tf" />
+        <option value="$PROJECT_DIR$/terraform/modules/gce/main.tf" />
       </list>
     </option>
   </component>
@@ -152,7 +159,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="817" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="817" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -252,7 +259,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/terraform/modules/gce/main.tf">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
