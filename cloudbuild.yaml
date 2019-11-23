@@ -12,7 +12,7 @@ steps:
   dir: 'terraform'
 
 - name: hashicorp/terraform
-  args: ['import', 'google_project_iam_binding.owner', 'user:sujeethan.vigneswaran@gmail.com']
+  args: ['import', 'google_project_iam_binding.owner', 'owner']
   dir: 'terraform'
 
 - name: hashicorp/terraform
