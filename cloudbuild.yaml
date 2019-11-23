@@ -15,8 +15,8 @@ steps:
   args: ['plan', '-out=plan', '-lock=false', '-refresh=true']
   dir: 'terraform'
 
-#- name: hashicorp/terraform
-#  args: ['apply', 'plan']
-#  dir: 'terraform'
+- name: hashicorp/terraform
+  args: ['apply', 'plan']
+  dir: 'terraform'
 
 timeout: 3600s
