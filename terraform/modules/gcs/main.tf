@@ -1,6 +1,6 @@
 resource "google_storage_bucket" "terraform_state_bucket" {
   name     = "std-terraform"
-  location = var.region
+  location = 'us'
 }
 
 resource "google_storage_bucket" "test_bucket" {
