@@ -12,11 +12,11 @@ steps:
   dir: 'terraform'
 
 - name: hashicorp/terraform
-  args: ['import', 'google_project_iam_binding.owner', 'stf-terraform', 'roles/owner', 'user:sujeethan.vigneswaran@gmail.com']
+  args: ['import', 'google_project_iam_binding.owner', 'std-terraform', 'roles/owner', 'user:sujeethan.vigneswaran@gmail.com']
   dir: 'terraform'
 
 - name: hashicorp/terraform
-  args: ['import', 'google_project_iam_binding.owner', 'stf-terraform', 'roles/owner', 'serviceAccount:803285486364@cloudbuild.gserviceaccount.com']
+  args: ['import', 'google_project_iam_binding.owner', 'std-terraform', 'roles/owner', 'serviceAccount:803285486364@cloudbuild.gserviceaccount.com']
   dir: 'terraform'
 
 - name: hashicorp/terraform
