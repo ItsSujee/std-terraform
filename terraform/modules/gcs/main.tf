@@ -1,7 +1,7 @@
-resource "google_storage_bucket" "terraform_state_bucket" {
-  name     = "std-terraform"
-  location = "us"
-}
+//resource "google_storage_bucket" "terraform_state_bucket" {
+//  name     = "std-terraform"
+//  location = "us"
+//}
 
 resource "google_storage_bucket" "test_bucket" {
   name     = "test-bucket-svdjkbkvdsvnlflwjfclisdncvlisncvl5678909876789765"
