@@ -1,6 +1,10 @@
 steps:
 
 - name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'bash'
+  args: ['enable_apis.sh']
+
+- name: 'gcr.io/cloud-builders/gcloud'
   args: ['source', 'repos', 'clone', 'github_itssujee_std-terraform', '--project=std-terraform']
 
 - name: hashicorp/terraform
