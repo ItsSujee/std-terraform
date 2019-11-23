@@ -16,7 +16,7 @@ steps:
   dir: 'terraform'
 
 - name: hashicorp/terraform
-  args: ['apply', 'plan', '-lock=false']
+  args: ['apply', 'plan']
   dir: 'terraform'
 
 timeout: 3600s
