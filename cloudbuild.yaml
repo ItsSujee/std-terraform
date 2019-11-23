@@ -12,19 +12,11 @@ steps:
   dir: 'terraform'
 
 - name: hashicorp/terraform
-  args: ['import', 'google_project_iam_binding.owner']
+  args: ['plan', '-out=plan', '-lock=false', '-refresh=true']
   dir: 'terraform'
 
 - name: hashicorp/terraform
-  args: ['import', 'google_storage_bucket.terraform_state_bucket']
-  dir: 'terraform'
-
-- name: hashicorp/terraform
-  args: ['plan', '-out=plan']
-  dir: 'terraform'
-
-- name: hashicorp/terraform
-  args: ['apply', 'plan']
+  args: ['apply', 'plan', '-lock=false']
   dir: 'terraform'
 
 timeout: 3600s
