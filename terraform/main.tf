@@ -10,15 +10,15 @@ provider "google" {
   region  = var.region
 }
 
-resource "google_project_iam_binding" "owner" {
-  project =  var.project
-  role    = "roles/owner"
-
-  members = [
-    "user:sujeethan.vigneswaran@gmail.com",
-    "serviceAccount:803285486364@cloudbuild.gserviceaccount.com"
-  ]
-}
+//resource "google_project_iam_binding" "owner" {
+//  project =  var.project
+//  role    = "roles/owner"
+//
+//  members = [
+//    "user:sujeethan.vigneswaran@gmail.com",
+//    "serviceAccount:803285486364@cloudbuild.gserviceaccount.com"
+//  ]
+//}
 
 module "gcs" {
   source = "./modules/gcs"

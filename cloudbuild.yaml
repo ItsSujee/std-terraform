@@ -12,14 +12,6 @@ steps:
   dir: 'terraform'
 
 - name: hashicorp/terraform
-  args: ['import', 'google_project_iam_binding.owner', 'owner']
-  dir: 'terraform'
-
-- name: hashicorp/terraform
-  args: ['import', 'google_project_iam_binding.owner', 'serviceAccount:803285486364@cloudbuild.gserviceaccount.com']
-  dir: 'terraform'
-
-- name: hashicorp/terraform
   args: ['plan', '-out=plan', '-lock=false', '-refresh=true']
   dir: 'terraform'
 
