@@ -1,0 +1,18 @@
+steps:
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['source', 'repos', 'clone', 'github_itssujee_std-terraform', '--project=std-terraform']
+
+- name: hashicorp/terraform
+  args: ['init', '-reconfigure', '-backend-config=bucket=std-terraform']
+  dir: 'terraform'
+
+- name: hashicorp/terraform
+  args: ['plan', '-out=plan']
+  dir: 'terraform'
+
+#- name: hashicorp/terraform
+#  args: ['apply', 'plan']
+#  dir: 'terraform'
+
+timeout: 3600s

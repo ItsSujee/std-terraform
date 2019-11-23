@@ -1,0 +1,2 @@
+region = ""
+project = "std-terraform"
