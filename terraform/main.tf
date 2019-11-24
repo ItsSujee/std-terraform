@@ -20,6 +20,7 @@ provider "google" {
 //  ]
 //}
 
+
 module "gcs" {
   source = "./modules/gcs"
   region = var.region
