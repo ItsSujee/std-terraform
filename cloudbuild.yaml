@@ -19,6 +19,4 @@ steps:
 #  args: ['apply', 'plan']
 #  dir: 'terraform'
 
-
-
 timeout: 3600s
