@@ -3,6 +3,8 @@
 //  location = "us"
 //}
 
+
+
 resource "google_storage_bucket" "test_bucket" {
   name     = "test-bucket-svdjkbkvdsvnlflwjfclisdncvlisncvl5678909876789765"
   location = var.region
