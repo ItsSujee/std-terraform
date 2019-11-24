@@ -1,5 +1,7 @@
 # std-terraform
 
+![std-terraform](logo.png)
+
 Standard Library Meets Terraform for a Slack and Web Application Integration
 
 ## Getting Started
